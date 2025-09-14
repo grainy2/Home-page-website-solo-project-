@@ -42,10 +42,10 @@ h1{
 .hero-text{
     
     background-color: #457B9D;
-    border-radius: 10px;
-    padding: 10px 30px;
+    border-radius: 15px;
+    padding: 5px 0px;
     color: #FFFFFF;
-    width: 412px;
+    width: 500px;
     margin-top: 0;
     
 }
@@ -75,6 +75,11 @@ h1{
 
 .body-text{
     margin-top: 0 0 50px 0;
+    color: #1D3557;
+}
+
+p, h3{
+    color: #1D3557 ;
 }
 
 .event{
@@ -104,6 +109,10 @@ h1{
 #local{
     color: #242423;
     margin-bottom: 10px;
+}
+
+.snack{
+   color: black;
 }
 
 
