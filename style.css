@@ -90,39 +90,79 @@ h1{
 
 /* Additional section */
 .adt-section{
-    border: 2px solid black;
-    margin: 20px 0 20px 0;
+    background-color: #6b9080 ;
     width: 720px;
-    height: 400px;
+    height: 380px;
+    padding: 15px 0 15px 0;
+}
+
+#oya{
+    margin-bottom:  0 50px 0;
+    color: #242423;
+}
+
+#local{
+    color: #242423;
+    margin-bottom: 10px;
 }
 
 
-/* #kilishi{
+
+.hover-sec{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+ 
+.food{
+    width: 210px;
+    height: 200px;
+}
+
+ #kilishi{
     background-image: url("imagess/kilishi.jpeg");
-} */
+    background-size: cover;
+    background-position: center;
+} 
 
- /* #suya{
-    background-image: url("imagess/Suya.jpeg");
-} */
-
-/* #fura-da-nono{
-    background-image:url("imagess/fura-da-nono.jpeg") ; } */
-
-/* hover */
-
-/* #kilishi:hover{
+ #kilishi:hover{
+    
     background-image:url("imagess/Kilishi-txt.png") ;
-} */
+     background-size: cover;
+     background-position: center;
 
+}
 
-/* #suya:hover{
+#suya{
+    background-image: url("imagess/Suya.jpeg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+#suya:hover{
     background-image:url("imagess/suya-txt.png") ;
-} */
+    background-size: cover;
+    background-position: center;
+} 
 
-/* #fura-da-nono:hover{
+#fura-da-nono{
+    background-image:url("imagess/fura-da-nono.jpeg") ; 
+    background-size: cover;
+    background-position: center;
+}
+
+#fura-da-nono:hover{
     background-image: url("imagess/Fura-txt.png");
-}  */
+    background-size: cover;
+    background-position: center;
+}  
 
+#name{
+    display: flex;
+    justify-content: space-around;
+
+}
 
 
 /* End */
