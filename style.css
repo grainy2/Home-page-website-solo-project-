@@ -13,10 +13,10 @@
     text-align: center;
     font-family:"Inter", sans-serif;
     background: linear-gradient( #0F2027, #2C5364);
-
 }
 
 /* HERO */
+
 .container{
      width: 720px;
      height: 343px;
@@ -34,7 +34,7 @@ h1{
     border-radius: 10px;
     padding: 0px 10px;
     color: #FFFFFF;
-    width: 225px;
+    width: 200px;
     margin: 50px 0 11px 0 ;
 }
 
@@ -42,12 +42,12 @@ h1{
 .hero-text{
     
     background-color: #457B9D;
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 5px 0px;
     color: #FFFFFF;
     width: 500px;
     margin-top: 0;
-    
+    font-size: 15px;
 }
 
 #hero{
@@ -56,6 +56,7 @@ h1{
 }
 
 /* body */
+
 #body-main{
     height: 350px;
     width: 720px;
@@ -64,17 +65,15 @@ h1{
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .act{
     width: 100px;
     border-radius: 50%;
-
 }
 
 .body-text{
-    margin-top: 0 0 50px 0;
+    font-size: 25px ;
     color: #1D3557;
 }
 
@@ -94,6 +93,7 @@ p, h3{
 }
 
 /* Additional section */
+
 .adt-section{
     background-color: #6b9080 ;
     width: 720px;
@@ -115,8 +115,6 @@ p, h3{
    color: black;
 }
 
-
-
 .hover-sec{
     margin-top: 50px;
     display: flex;
@@ -135,22 +133,19 @@ p, h3{
 } 
 
  #kilishi:hover{
-    
     background-image:url("imagess/Kilishi-txt.png") ;
-     background-size: cover;
-     background-position: center;
-
+    background-size: cover;
+    background-position: center;
 }
 
 #suya{
     background-image: url("imagess/Suya.jpeg");
     background-size: cover;
     background-position: center;
-
 }
 
 #suya:hover{
-    background-image:url("imagess/suya-txt.png") ;
+    background-image:url("imagess/suya.png") ;
     background-size: cover;
     background-position: center;
 } 
@@ -170,7 +165,6 @@ p, h3{
 #name{
     display: flex;
     justify-content: space-around;
-
 }
 
 
@@ -195,16 +189,16 @@ p, h3{
     align-items: center;
     border-bottom: 6px solid #1D3557;
     background-color: #A8DADC;
-    
-
 }
 
 #my-profile{
+    height: 250px;
     width: 180px;
-    border-radius: 10px;
-    padding: 15px 0 15px 15px;
+    border-radius: 30px;
+    padding: 15px 5px 15px 13px;
 }
 
 .word-container{
     padding: 10px 10px 10px 0px;
 }
+
